@@ -1,0 +1,2 @@
+# udacity_stage2_madlibs
+Code a Fill-in-the-Blanks Quiz You've built a Mad-Libs game with some help from Sean. Now you'll work on your own game to practice your skills and demonstrate what you've learned.  For this project you'll be building a fill-in-the-blanks quiz. Your quiz will prompt a user with a sentence containing several blanks. The user should then be asked to fill in each blank appropriately to complete the sentence. This can be used as a study tool to help you remember important vocabulary!
