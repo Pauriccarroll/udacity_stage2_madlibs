@@ -45,12 +45,15 @@ def choose_level():
 
     if level == "easy":
         print "Easy level selected"
+        Easy level selected = 0
         return 0
     elif level == "medium":
         print "Medium level selected"
+        Medium level selected = 0
         return 1
     elif level == "hard":
         print "Hard level selected"
+        Hard level selected = 0
         return 2
     else:
         print "Invalid level selected"
@@ -119,8 +122,9 @@ def main():
     print "~~~ Welcome to Computer Programming Reverse-Mad-Libs ~~~"
 
     level = choose_level()
+    hard_level_index=3
 
-    while level < 3:
+    while level< hard_level_index:
         play_game(level)
 
         # If we're at easy or medium, prompt to advance
